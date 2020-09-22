@@ -25,7 +25,7 @@ $(document).ready(function() {
   var SHOW_GRID = true; // `true` to show the grid, `false` to hide
 
   // Read data file and create a chart
-  d3.csv('data.csv').then(function(rows) {
+  d3.csv('Surgar and Fat daily grams in selected nations in 2015.csv').then(function(rows) {
 
     var data = rows.map(function(row) {
       return {
