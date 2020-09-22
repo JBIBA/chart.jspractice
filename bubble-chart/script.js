@@ -80,8 +80,8 @@ $(document).ready(function() {
               display: SHOW_GRID,
             },
             ticks: {
-              callback: function(value, index, values) {
-                return POINT_Y_PREFIX + value.toLocaleString() + POINT_Y_POSTFIX;
+                    suggestedMin: 0,
+                    suggestedMax: 140
               }
             }
           }]
