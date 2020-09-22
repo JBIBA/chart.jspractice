@@ -1,7 +1,7 @@
-var TITLE = 'Hartford School District is No Longer the Largest in Connecticut';
+var TITLE = 'Populations Growth Trend in selected nations,1960-2010;
 
-var X_AXIS = 'Academic Year';  // x-axis label and label in tooltip
-var Y_AXIS = 'Number of Students'; // y-axis label and label in tooltip
+var X_AXIS = 'population';  // x-axis label and label in tooltip
+var Y_AXIS = 'nation'; // y-axis label and label in tooltip
 
 var BEGIN_AT_ZERO = false;  // Should x-axis start from 0? `true` or `false`
 
@@ -12,7 +12,7 @@ var SHOW_LEGEND = true; // `true` to show the legend, `false` to hide
 $(document).ready(function() {
 
   // Read data file and create a chart
-  $.get('./data.csv', function(csvString) {
+  $.get('Populations Growth Trend in selected nations.csv', function(csvString) {
 
     var data = Papa.parse(csvString).data;
     var timeLabels = data.slice(1).map(function(row) { return row[0]; });
