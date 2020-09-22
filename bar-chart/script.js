@@ -12,12 +12,12 @@ $(document).ready(function() {
     {
       column: 'sugar daily grams per capita in 2015',
       name: 'sugar daily grams per capita in 2015',
-      color: 'red'
+      color: 'Red'
     },
     {
       column: 'fat daily grams per capita in 2015',
       name: 'fat daily grams per capita in 2015',
-      color: 'yellow'
+      color: 'Yellow'
     }
   ];
 
