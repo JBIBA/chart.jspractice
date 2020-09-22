@@ -4,25 +4,25 @@ $(document).ready(function() {
 	
   var STACKED = false;  // `false` for individual bars, `true` for stacked bars
 
-  var TITLE = 'English Learners by Select School Districts in Connecticut, 2018-19';
+  var TITLE = 'Sugar and Fat Daily Grams in 2015';
 
   var LABELS = 'district';  // Column to define 'bucket' names on x-axis (for vertical column chart) or y-axis (for horizontal bar chart)
 
   var SERIES = [  // For each column representing a data series, define its name and color
     {
-      column: 'nonlearner',
-      name: 'Non-Learners',
+      column: 'sugar daily grams per capita in 2015',
+      name: 'sugar daily grams per capita in 2015',
       color: 'grey'
     },
     {
-      column: 'learner',
-      name: 'Learners',
+      column: 'fat daily grams per capita in 2015',
+      name: 'fat daily grams per capita in 2015',
       color: 'blue'
     }
   ];
 
-  var X_AXIS = 'School Districts';  // x-axis label and label in tooltip
-  var Y_AXIS = 'Number of Enrolled Students'; // y-axis label and label in tooltip
+  var X_AXIS = 'nation';  // x-axis label and label in tooltip
+  var Y_AXIS = 'gram'; // y-axis label and label in tooltip
 
   var SHOW_GRID = true; // `true` to show the grid, `false` to hide
   var SHOW_LEGEND = true; // `true` to show the legend, `false` to hide
