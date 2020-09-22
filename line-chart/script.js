@@ -1,7 +1,7 @@
 var TITLE = 'Populations Growth Trend in selected nations,1960-2010;
 
-var X_AXIS = 'population';  // x-axis label and label in tooltip
-var Y_AXIS = 'nation'; // y-axis label and label in tooltip
+var X_AXIS = 'Year';  // x-axis label and label in tooltip
+var Y_AXIS = 'Population'; // y-axis label and label in tooltip
 
 var BEGIN_AT_ZERO = false;  // Should x-axis start from 0? `true` or `false`
 
