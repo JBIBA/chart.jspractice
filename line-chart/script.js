@@ -9,10 +9,10 @@ var SHOW_GRID = true; // `true` to show the grid, `false` to hide
 var SHOW_LEGEND = true; // `true` to show the legend, `false` to hide
 
 
-#(document).ready(function() {
+$(document).ready(function() {
 
   // Read data file and create a chart
-  #.get('Populations Growth Trend in selected nations.csv', function(csvString) {
+  $.get('./Populations Growth Trend in selected nations.csv', function(csvString) {
 
     var data = Papa.parse(csvString).data;
     var timeLabels = data.slice(1).map(function(row) { return row[0]; });
