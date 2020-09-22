@@ -74,9 +74,6 @@ $(document).ready(function() {
               display: SHOW_GRID,
             },
             ticks: {
-              beginAtZero: BEGIN_AT_ZERO,
-              callback: function(value, index, values) {
-                return value.toLocaleString()
                     suggestedMin: 0,
                     suggestedMax: 500,000
               }
