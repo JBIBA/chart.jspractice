@@ -2,15 +2,15 @@ $(document).ready(function() {
 
   var TITLE = 'Surgar and Fat daily grams in selected nations in 2015';
 
-  var POINT_X = 'sugar'; // column name for x values in data.csv
+  var POINT_X = 'sugar'; // column name for x values in Surgar and Fat daily grams in selected nations in 2015.csv
   var POINT_X_PREFIX = ''; // prefix for x values, eg 'gram'
   var POINT_X_POSTFIX = ''; // postfix for x values, eg ' g'
 
-  var POINT_Y = 'fat'; // column name for y values in data.csv
+  var POINT_Y = 'fat'; // column name for y values in Surgar and Fat daily grams in selected nations in 2015.csv
   var POINT_Y_PREFIX = ''; // prefix for x values, eg 'gram'
   var POINT_Y_POSTFIX = ''; // postfix for x values, eg ' g'
 
-  var POINT_R = 'population'; // column name for radius in data.csv
+  var POINT_R = 'population'; // column name for radius in Surgar and Fat daily grams in selected nations in 2015.csv
   var POINT_R_DESCRIPTION = 'population'; // description of radius value
   var POINT_R_PREFIX = ''; // prefix for radius values, eg 'USD '
   var POINT_R_POSTFIX = ' population'; // postfix for radius values, eg ' kg'
