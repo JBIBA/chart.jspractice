@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   var TITLE = 'Sugar and Fat Daily Grams in 2015';
 
-  var LABELS = 'district';  // Column to define 'bucket' names on x-axis (for vertical column chart) or y-axis (for horizontal bar chart)
+  var LABELS = 'nation';  // Column to define 'bucket' names on x-axis (for vertical column chart) or y-axis (for horizontal bar chart)
 
   var SERIES = [  // For each column representing a data series, define its name and color
     {
@@ -28,7 +28,7 @@ $(document).ready(function() {
   var SHOW_LEGEND = true; // `true` to show the legend, `false` to hide
 
   // Read data file and create a chart
-  d3.csv('data.csv').then(function(rows) {
+  d3.csv('Sugar and Fat Daily Grams in 2015 - data.csv').then(function(rows) {
 
     var datasets = SERIES.map(function(el) {
       return {
